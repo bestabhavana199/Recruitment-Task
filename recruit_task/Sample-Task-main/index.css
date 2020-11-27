@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.top-bar {
+  border: 1px solid sandybrown;
+  background-color: sandybrown;
+  display: flex;
+}
+
+.btn {
+  margin-right: -100px;
+  width: 80px;
+  cursor: pointer;
+  background-color: wheat;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn:hover {
+  color: salmon;
+  background-color: white;
+  border: white;
+}
+
+.products {
+  display: inline-block;
+  /* border: 1px solid red; */
+  margin: 10px 10px;
+}
+
+.inputs {
+  margin-top: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  padding: 20px 30px;
+  background: linear-gradient(to bottom, #004cdc, #007bc7);
+}
